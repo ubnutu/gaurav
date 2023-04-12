@@ -56,4 +56,4 @@ import sklearn.linear_model as lm
 lr = lm.LinearRegression()
 lr.fit(X, Y)
 price = lr.predict(user_df)
-print("House Price is USD",1 int(price[0]))
+print("House Price is USD", int(price[0]))
