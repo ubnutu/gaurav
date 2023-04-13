@@ -9,7 +9,7 @@ Original file is located at
 
 # Read the data 
 import pandas as pd 
-data = pd.read_csv ("/content/Housing_Modified.csv")
+data = pd.read_csv ("/content/Housing_Modified_prepared.csv")
 
 # Select independent and dependent variables
 Y = data['price']
